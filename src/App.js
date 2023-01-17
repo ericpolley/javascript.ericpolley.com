@@ -3,9 +3,11 @@ import './App.css';
 import Home from './pages/Home';
 import T01html from './pages/T01html';
 import Header from './components/Header';
-import T02boot from './pages/T02boot';
+import T10boot from './pages/T10boot';
 import T03boiler from './pages/T03boiler';
 import T04linkcss from './pages/T04linkcss';
+import T05flexbox from './pages/T05flexbox';
+import T02htmltext from './pages/T02htmltext';
 
 function App() {
   return (
@@ -17,9 +19,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/T01' element={<T01html />} />
-        <Route path='/T02' element={<T02boot />} />
+        <Route path='/T02' element={<T02htmltext />} />       
         <Route path='/T03' element={<T03boiler />} />
-        <Route path='/T04' element={<T04linkcss/>} />
+        <Route path='/T04' element={<T04linkcss />} />
+        <Route path='/T05' element={<T05flexbox />} />
+
+        <Route path='/T10' element={<T10boot />} />
       </Routes>
       </div>
     </HashRouter>

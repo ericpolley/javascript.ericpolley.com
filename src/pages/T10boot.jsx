@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router'
 
-export default function T02boot() {
+export default function T10boot() {
 
  const navigate = useNavigate()
   return (
