@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router'
 import T03boiler from './T03boiler';
 import T04linkcss from './T04linkcss';
 import T05flexbox from './T05flexbox';
-import T10boot from './T12boot';
 import T02htmltext from './T02htmltext';
 import T06 from './T06imagehtml';
 import T07 from './T07color';
