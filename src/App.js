@@ -28,12 +28,14 @@ import T23 from './pages/T23reactsite';
 import T24 from './pages/T24reactsite';
 import T25 from './pages/T25reactsite';
 import T26 from './pages/T26reactsite';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
     <HashRouter>
       <Header />
+      
       <div className='h-20'></div>
       <div className='p-6 pt-16 pb-24 mb-12 md:p-16 md:pb-48 border-2 border-t-4 border-slate-900 text-white bg-slate-800'>
       <Routes>
@@ -65,7 +67,9 @@ function App() {
         <Route path='/T25' element={<T25 />} />
         <Route path='/T26' element={<T26 />} />
       </Routes>
+      
       </div>
+      <Footer />
     </HashRouter>
     </>
   );
