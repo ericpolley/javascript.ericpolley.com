@@ -14,6 +14,20 @@ import T08 from './pages/T08csbox';
 import T09 from './pages/T09github';
 import T10 from './pages/T10customdomain';
 import T11 from './pages/T11updategithub';
+import T13 from './pages/T13idclass';
+import T14 from './pages/T14anchor';
+import T15 from './pages/T15importreact';
+import T16 from './pages/T16reactapp';
+import T17 from './pages/T17tailwindreact';
+import T18 from './pages/T18nextjs';
+import T19 from './pages/T19tailwindnextjs';
+import T20 from './pages/T20reactsite';
+import T21 from './pages/T21reactsite';
+import T22 from './pages/T22reactsite';
+import T23 from './pages/T23reactsite';
+import T24 from './pages/T24reactsite';
+import T25 from './pages/T25reactsite';
+import T26 from './pages/T26reactsite';
 
 function App() {
   return (
@@ -36,6 +50,20 @@ function App() {
         <Route path='/T10' element={<T10 />} />
         <Route path='/T11' element={<T11 />} />
         <Route path='/T12' element={<T12boot />} />
+        <Route path='/T13' element={<T13 />} />
+        <Route path='/T14' element={<T14 />} />
+        <Route path='/T15' element={<T15 />} />
+        <Route path='/T16' element={<T16 />} />
+        <Route path='/T17' element={<T17 />} />
+        <Route path='/T18' element={<T18 />} />
+        <Route path='/T19' element={<T19 />} />
+        <Route path='/T20' element={<T20 />} />
+        <Route path='/T21' element={<T21 />} />
+        <Route path='/T22' element={<T22 />} />
+        <Route path='/T23' element={<T23 />} />
+        <Route path='/T24' element={<T24 />} />
+        <Route path='/T25' element={<T25 />} />
+        <Route path='/T26' element={<T26 />} />
       </Routes>
       </div>
     </HashRouter>
